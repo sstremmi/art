@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body.index{
+    background-image: url(images/indexbackground.gif);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body.historical{
+    background-image: url(images/historicalbackground.gif);
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*---nav---*/
+
+nav{
+    padding: 2% 5%;
+}
+.nav-links{
+    text-align: right;
+    flex: 1;
+    float: right;
+}
+.nav-links ul li{
+    display: inline-block;
+    padding: 8px 20px;
+    margin-right: 0;
+}
+.nav-links ul li a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li::after{
+    content:'';
+    width: 0%;
+    height: 2px;
+    background: black;
+    display: block;
+    margin: auto;
+    transition: 0.1s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.nav-links-left{
+    text-align: left;
+    flex: 1;
+    float: left;
+}
+.nav-links-left ul li{
+    display: inline-block;
+    padding: 8px 20px;
+}
+.nav-links-left ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 13px;
+}
+.nav-links-left ul li::after{
+    content:'';
+    width: 0%;
+    height: 2px;
+    background: black;
+    display: block;
+    margin: auto;
+    transition: 0.1s;
+}
+.nav-links-left ul li:hover::after{
+    width: 100%;
+}
+.current li a{
+    border-bottom: 4px solid black;
+}
+
+/*---Index---*/
+
+.nav-links-index{
+    padding: 0;
+    font-size: 20px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: 
+        translateY(-50%) 
+        translateX(1500px);
+}
+.nav-links-index ul li{
+    list-style: none;
+}
+.nav-links-index ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+.nav-links-index ul li::after{
+    content:'';
+    width: 0%;
+    height: 2px;
+    background: black;
+    display: block;
+    margin: auto;
+    padding: 0;
+    transition: 0.1s;
+}
+.nav-links-index ul li:hover::after{
+    width: 100%;
+}
+.current ul li{
+    width: 100%;
+}
+
+/*---level 2---*/
+
+.blurb{
+    max-width: 400px;
+    padding: 0;
+    font-size: 20px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: 
+        translateY(-50%) 
+        translateX(350px);
+}
+.blurb h1{
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+.blurb p{
+    text-align: justify;
+}
+.artists{
+    padding: 0;
+    font-size: 20px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: 
+        translateY(-50%) 
+        translateX(1250px);
+}
+.artists ul li{
+    list-style: none;
+    // margin: 5px;
+}
+.artists ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+.artists ul li::after{
+    content:'';
+    width: 0%;
+    height: 2px;
+    background: #000000;
+    display: block;
+    margin: auto;
+    transition: 0.1s;
+}
+.artists ul li:hover::after{
+    width: 100%;
+}
+/*---level 3---*/
+
+.works{
+    padding: 0;
+    font-size: 20px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: 
+        translateY(-50%) 
+        translateX(500px);
+}
+.works ul li{
+    list-style: none;
+    margin: 5px;
+}
+.works ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+.works ul li::after{
+    content:'';
+    width: 0%;
+    height: 2px;
+    background: #000000;
+    display: block;
+    margin: auto;
+    transition: 0.1s;
+}
+.works ul li:hover::after{
+    width: 100%;
+}
+.artist{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    transform: 
+        translateY(-50%)
+        translateX(450px);
+}
+.artist img{
+    height: 379px;
+}
+.artistblurb{
+    width: 400px;
+    float: right;
+    margin-left: 10px;
+}
+.artistblurb h1 a{
+    text-decoration: none;
+    color: #000000;
+}
+.artistblurb h1 a::after{
+    content:'';
+    width: 0%;
+    height: 2px;
+    background: #000000;
+    display: block;
+    margin: auto;
+    transition: 0.1s;
+}
+.artistblurb h1 a:hover::after{
+    width: 100%
+}
+.artistblurb p{
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
